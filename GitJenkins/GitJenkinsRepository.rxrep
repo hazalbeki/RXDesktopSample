@@ -1,0 +1,76 @@
+﻿<repository
+id="f9abb9ef-35e8-460b-b627-07c8b1ca9699"
+name="GitJenkinsRepository">
+	<codegen
+	classname="GitJenkinsRepository"
+	namespace="GitJenkins">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="da6c4b2a-4af4-4d28-8ff2-6b9b0a3dd231"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="49363f18-801c-4445-84e5-cf21337e5574"
+		isrooted="True"
+		name="Ayarlar"
+		refimgid="726bb3ff-fc3c-40db-8855-308c2eae1fe1"
+		refpath="/winapp[@packagename='windows.immersivecontrolpanel']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="caeb14f4-0c42-4742-9a54-614f9e2204fa"
+			name="AramaKutusuBirAyarBul"
+			refimgid="90b599fd-8116-4afa-8504-fcb16c259ee7"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/container/container/text/text[@name>'Arama kutusu, Bir ayar bu']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name>'Arama kutusu, Bir ayar bu' and @orientation='None' and @iscontentelement='False']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']/?/?/container[@automationid='SearchAutoSuggestBox']/?/?/text[@name&gt;'Arama kutusu, Bir ayar bu']
+			</item>
+			<item
+			addcaps="container,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="container"
+			id="76aace88-81fe-4201-ab7e-846cbfb4455b"
+			name="SearchAutoSuggestBox"
+			refimgid="0b757d57-3b8c-44c7-9abf-e58378896604"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/container/container[@automationid='SearchAutoSuggestBox']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']/?/?/container[@automationid='SearchAutoSuggestBox']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']/?/?/container[@automationid='SearchAutoSuggestBox']
+			</item>
+			<item
+			addcaps="indicator,uiautomation,uiautomationscrollitem"
+			capname="indicator"
+			id="a5ae0672-2642-429a-af3e-01e48357a720"
+			name="HorizontalThumb"
+			refimgid="6a6d82b2-6cf7-4ff2-b0b8-c8dc801f05f1"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/container[2]/container/container[@name='Çıkış']/slider/indicator[@automationid='HorizontalThumb']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//indicator[@automationid='HorizontalThumb']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Çıkış']/slider[@automationid='SystemSettings_Audio_Output_VolumeValue_Slider']/indicator[@automationid='HorizontalThumb']
+			</item>
+			<basepath>
+				/winapp[@packagename='windows.immersivecontrolpanel']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEDSURBVDhPpVG7DgFREPUZPsMH+AAf4AP0fmBL
+jVqiUolGpdIpdCQqlWILhUc8NksQm2AJY89dc91rpyBOcrIzZ153ZlMpx6W/KIq/UBQjlrobbWeq
+Eyq0VlZcUxLH2ysBTsdX/vp4U36+uUjkig0wTYKUazXAZBTf7nFBb3qixvBAQfhQvuuHVOnvaORd
+kg2wswnsrZMiopEJHTOTsDOAyabOZKTL47duJoAApn3qHAMsnY1cfU7rIL52EN7tpIiYyhjMjRey
+8Xl58xUo3p9fl32BY9YK+eZSfXFtCcW2p+LZ2kzXJG4A4ldJkHLFBiMvfgFfezA7Kd+azEwIv1IU
+v6ZLT3ZpvCbpWh5WAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

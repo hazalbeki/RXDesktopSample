@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d6acdf74-700a-4091-a269-c5371ce9386c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="GitJenkins">
+	</codegen>
+	<variables>
+		<var
+		id="01ad0c34-8958-4af4-a360-465f3ec6b399"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="3e5da034-34f8-4840-8d50-b9bfd27cb79b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f9abb9ef-35e8-460b-b627-07c8b1ca9699"
+	name="GitJenkinsRepository"
+	relativepath="GitJenkinsRepository.rxrep">
+		<codegen
+		classname="GitJenkinsRepository"
+		namespace="GitJenkins">
+		</codegen>
+		<rootfolder
+		id="da6c4b2a-4af4-4d28-8ff2-6b9b0a3dd231"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="GitJenkins"
+      id="85f543f6-465b-43da-b57c-e90c3285097d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="GitJenkins"
+      id="85f543f6-465b-43da-b57c-e90c3285097d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
